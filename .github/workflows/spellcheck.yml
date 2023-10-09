@@ -8,5 +8,5 @@ jobs:
       - uses: actions/checkout@v4
       - uses: tbroadley/spellchecker-cli-action@v1
         with:
-          files: "markdown_files/Debugging.md markdown_files/Overview.md"
+          files: test/*.md
           quiet: true

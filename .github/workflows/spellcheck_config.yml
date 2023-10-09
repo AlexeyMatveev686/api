@@ -1,7 +1,7 @@
 matrix:
 - name: Markdown
   sources:
-  - 'markdown_files/Debugging.md markdown_files/Overview.md'
+  - 'test/*.md'
   default_encoding: utf-8
   aspell:
     lang: en

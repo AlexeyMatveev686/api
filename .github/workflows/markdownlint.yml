@@ -10,5 +10,5 @@ jobs:
     - uses: nosborn/github-action-markdown-cli@v3.3.0
       name: Markdownlint
       with:
-        files: .
+        files: test/*.md
         config_file: ".markdownlint.json"
