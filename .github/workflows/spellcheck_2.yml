@@ -10,3 +10,6 @@ jobs:
         with:
           files: test/*.md
           quiet: true
+          dictionaries: wordlist.txt
+          noSuggestions: true
+          reports: report.json
