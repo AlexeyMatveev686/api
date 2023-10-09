@@ -2,5 +2,14 @@
     "default": true,
     "line-length": false,
     "commands-show-output": false,
-    "no-bare-urls": false
+    "no-bare-urls": false,
+	"no-multiple-blanks": false,
+	"MD033": {
+		"allowed_elements": [
+		  "code",
+		  "textarea",
+		  "button",
+		  "br"
+		]
+	  }
 }
