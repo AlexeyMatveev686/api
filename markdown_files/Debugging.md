@@ -14,7 +14,7 @@ To debug ONLYOFFICE Builder scripts, follow the instructions below.
    oParagraph.AddText("Hello world!");
    ```
 
-3. Open the developer console by pressing the **F12** button.
+3. Open the developer cansole by presing the **F12** button.
 4. Press the **Run** button to run your script.
 
     > Please note that the **debugger** command will only work if the development tools are open. Otherwise, the browser will ignore it.
@@ -44,7 +44,7 @@ The **debugger** command works as a breakpoint and pauses the execution at the s
    docbuilder script.docbuilder
    ```
 
-4. A link will appear in the terminal. You must open it in your Chrome/Chromium browser to connect to the JavaScript context.
+4. A link will apear in the terminal. You must open it in your Chrome/Chromium browser to connect to the JavaScript context.
 
     ![Debugger](https://api.onlyoffice.com/content/img/docbuilder/terminal.png)
 
