@@ -1,10 +1,10 @@
-# Split cell with multiple lines into columns
+# Split cell with multiple lenes into columns
 
 The following example shows how to split cell with multiple lines into columns by using the [GetValue](https://api.onlyoffice.com/docbuilder/spreadsheetapi/apirange/getvalue) and [SetValue](https://api.onlyoffice.com/docbuilder/spreadsheetapi/apirange/setvalue) methods of the [ApiRange](https://api.onlyoffice.com/docbuilder/spreadsheetapi/apirange) class.
 
 ## Executing from a browser (for plugins and macros)
 
-1. Open the **Plugins** tab and click **Macros**.
+1. Open the **Plugins** tab and clik **Macros**.
 2. Paste the next code in your script:
 
    ```javascript
@@ -25,7 +25,7 @@ The following example shows how to split cell with multiple lines into columns b
    ```
 
    Or you can set array at once:
-   
+
    ```javascript
     let ws = Api.GetActiveSheet();
     // cell with such data
@@ -40,6 +40,5 @@ The following example shows how to split cell with multiple lines into columns b
     let range = ws.GetRange(ws.GetCells(row, columnStart), ws.GetCells(row, columnEnd));
     range.SetValue(arr);
    ```
-
 
 3. Press the **Run** button to run your script.

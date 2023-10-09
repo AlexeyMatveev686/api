@@ -18,7 +18,7 @@ To debug ONLYOFFICE Builder scripts, follow the instructions below.
 4. Press the **Run** button to run your script.
 
     > Please note that the **debugger** command will only work if the development tools are open. Otherwise, the browser will ignore it.
-    
+
     ![Debugger](https://api.onlyoffice.com/content/img/docbuilder/builder-debugger.png)
 
 The **debugger** command works as a breakpoint and pauses the execution at the script point where this command is inserted.
@@ -32,7 +32,7 @@ The **debugger** command works as a breakpoint and pauses the execution at the s
    # For Windows
    SET V8_USE_INSPECTOR=1
    ```
-   
+
    ```bash
    # For Linux
    export V8_USE_INSPECTOR=1
