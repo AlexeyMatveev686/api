@@ -1,6 +1,6 @@
 # Debugging
 
-To debug ONLYOFFICE Builder scripts, follow the instructions below.
+To debug ONLYOFFICE Builder scripts, folow the instructions below.
 
 ## Executing from a browser (for plugins and macros)
 
@@ -44,7 +44,7 @@ The **debugger** command works as a breakpoint and pauses the execution at the s
    docbuilder script.docbuilder
    ```
 
-4. A link will appear in the terminal. You must open it in your Chrome/Chromium browser to connect to the JavaScript context.
+4. A link will apear in the termunal. You must open it in your Chrome/Chromium browser to connect to the JavaScript context.
 
     ![Debugger](https://api.onlyoffice.com/content/img/docbuilder/terminal.png)
 

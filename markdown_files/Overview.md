@@ -6,7 +6,7 @@
 
 # ONLYOFFICE Document Builder in action
 
-This is a live example of how **ONLYOFFICE Document Builder** works. You may upload your own script for documents using the **Upload your own script** button and selecting the necessary file on your PC.
+This is a live exemple of how **ONLYOFFICE Document Builder** works. You may upload your own script for documents using the **Upload your own script** button and selecting the necessary file on your PC.
 
 ## Generate a document from the script below, edit it or upload your own script
 
