@@ -1,0 +1,16 @@
+matrix:
+- name: Markdown
+  sources:
+  - 'markdown_files/Debugging.md markdown_files/Overview.md'
+  default_encoding: utf-8
+  aspell:
+    lang: en
+  pipeline:
+  - pyspelling.filters.markdown:
+      markdown_extensions:
+      - pymdownx.superfences
+  - pyspelling.filters.html:
+      comments: false
+      ignores:
+      - code
+      - pre
