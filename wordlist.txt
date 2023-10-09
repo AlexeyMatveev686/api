@@ -21,3 +21,5 @@ oParagraph
 oRun
 CRM
 textarea
+V8_USE_INSPECTOR
+F12

@@ -1,6 +1,6 @@
 # Debugging
 
-![ONLYOFFICE DocumentBuilderv 7.4.0](https://img.shields.io/badge/ONLYOFFICE%20DocumentBuilder-v7.4.0-ff642e.svg?style=flat)
+![ONLYOFFICE DocumentBuilder v 7.4.0](https://img.shields.io/badge/ONLYOFFICE%20DocumentBuilder-v7.4.0-ff642e.svg?style=flat)
 
 **ONLYOFFICE Document Builder** alows you to build a documrnt easily without the need to actually run a document processing editor. It also allows the developers to automate document building using the templates you create or inserting the data from some database of yours into a document or a set of documents. It has all the features of a common document editor but is lightweight and can be easily integrated into your document management system, CRM system, etc. using its JavaScript API.
 
