@@ -9,3 +9,12 @@ jobs:
     - uses: actions/checkout@master
     - uses: ludeeus/action-shellcheck@2.0.0
       name: Shellcheck
+      with:
+        source_files: markdown_files/Debugging.md markdown_files/Overview.md
+        task_name: Markdown
+        output_file: spellcheck-output.txt
+    - uses: actions/upload-artifact@v3
+      if: '!cancelled()' # Do not upload artifact if job was cancelled
+      with:
+        name: Spellcheck Output
+        path: spellcheck-output.txt
