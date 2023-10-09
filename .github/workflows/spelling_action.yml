@@ -11,3 +11,4 @@ jobs:
       with:
         config_path: spellcheck.yml # put path to configuration file here
         task_name: Markdown
+        output_file: spellcheck-output.txt
