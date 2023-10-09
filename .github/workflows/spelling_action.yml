@@ -10,5 +10,5 @@ jobs:
       name: Spellcheck
       with:
         config_path: spellcheck_config.yml # put path to configuration file here
-        source_files: test/*.md
+        source_files: test/1.md test/Debugging.md test/Overview.md
         task_name: Markdown
